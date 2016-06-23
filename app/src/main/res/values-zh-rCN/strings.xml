@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"享当当"</string>
+    <string name="app_description">"一款关于生活分享的应用"</string>
+    <string name="action_settings">"设置"</string>
+    <string name="skip_btn_text">"跳过"</string>
+    <string name="toast_msg_quit_application">"再按一次退出应用"</string>
+    <string name="older_access_btn_text">"我是老用户"</string>
+    <string name="newer_access_btn_text">"新手上路"</string>
+    <string name="home_radio">"首页"</string>
+    <string name="search_radio">"搜索"</string>
+    <string name="discovery_radio">"发现"</string>
+    <string name="my_radio">"我的"</string>
+    <string name="concern_msg_btn_text">"关注"</string>
+    <string name="recommendation_btn_text">"推荐"</string>
+    <string name="input_new_information_button">"发布新消息"</string>
+    <string name="first_navigation_image_description">"第一页"</string>
+    <string name="search_icon_description">"搜索信息"</string>
+    <string name="profile_author_name_default">"请登录"</string>
+    <string name="profile_author_signature_default">"请输入个性签名..."</string>
+    <string name="profile_author_location_default">"南京"</string>
+    <string name="profile_attenttion_positive">"关注"</string>
+    <string name="profile_attenttion_passive">"粉丝"</string>
+
+    <string name="life_list_name_str">"生活榜"</string>
+    <string name="hand_writing_print_name_str">"笔迹"</string>
+    <string name="foot_print_name_str">"足迹"</string>
+    <string name="topic_name_str">"话题"</string>
+    <string name="subject_name_str">"主题"</string>
+    <string name="setting_name_str">"设置"</string>
+</resources>

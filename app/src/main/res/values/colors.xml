@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <!-- Color of the background of skip button -->
+    <color name="colorGray">#AAAAAA</color>
+    <!-- Color of the text on skip button -->
+    <color name="colorWhite">#FFFFFF</color>
+    <!-- Color of the default access button -->
+    <color name="colorOrange">#FFCC33</color>
+    <!-- Color of the press access button -->
+    <color name="colorDarkOrange">#FFCC99</color>
+    <!-- Color of the access button text -->
+    <color name="colorCoral">#996600</color>
+    <!-- Color of divider of bottom radio group-->
+    <color name="colorDarkGray">#ABABAB</color>
+    <!-- Color of cacheColorHint about ListView -->
+    <color name="colorTransparent">#00000000</color>
+    <!-- Color of application theme -->
+    <color name="leshareThemeColor">#3C9AFC</color>
+    <color name="leshareThemeColorDark">#3F51B5</color>
+    <color name="leshareThemeColorAccent">@android:color/white</color>
+    <!-- Tint the background of floating action button -->
+    <color name="floating_action_button_icon_color">#ffffff</color>
+    <!-- Text color theme of top bar -->
+    <color name="colorTopBarTheme">@android:color/white</color>
+
+    <color name="tablayout_text_unselected_color">#eeeeee</color>
+    <color name="tablayout_text_selected_color">#ffffff</color>
+    <color name="tablayout_indicator_color">#ffffff</color>
+
+    <!-- Google Colors-->
+    <color name="google_blue">#4285f4</color>
+    <color name="google_red">#ea4335</color>
+    <color name="google_yellow">#fbbc05</color>
+    <color name="google_green">#34a853</color>
+</resources>

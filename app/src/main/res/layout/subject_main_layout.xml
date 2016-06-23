@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/listview_item_margen_left"
+        android:layout_marginRight="@dimen/listview_item_margen_right"
+        android:layout_marginTop="@dimen/listview_item_margen_top">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/life_list_name_str"/>
+        <TextView
+            android:id="@+id/more_lifelist_subject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/listview_more_text"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/page_background_gray"
+            android:layout_below="@+id/more_lifelist_subject"
+            android:layout_marginTop="4dp"
+            />
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/lifelist_recyclerview_subjcet_id"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:clipChildren="false"
+        android:clipToPadding="false" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/listview_item_margen_left"
+        android:layout_marginRight="@dimen/listview_item_margen_right">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/topic_name_str"/>
+        <TextView
+            android:id="@+id/more_topic_subject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/listview_more_text"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/page_background_gray"
+            android:layout_below="@+id/more_topic_subject"
+            android:layout_marginTop="4dp"
+            />
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/topic_recyclerview_subjcet_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:clipChildren="false"
+        android:clipToPadding="false" />
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/tab_home_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/leshareThemeColor"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/concern_msg_btn"
+            style="@style/HomeTabButtonTheme"
+            android:text="@string/concern_msg_btn_text"/>
+
+        <Button
+            android:id="@+id/recommendation_msg_btn"
+            style="@style/HomeTabButtonTheme"
+            android:text="@string/recommendation_btn_text"/>
+
+        <LinearLayout
+            android:id="@+id/search_msg_layout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_button_pressed"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/search_icon_description"
+                android:src="@drawable/ic_search"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tab_home_navigation">
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/search_record_margin"
+            android:cacheColorHint="@color/colorTransparent"
+            android:divider="@color/colorDarkGray"
+            android:dividerHeight="@dimen/divider_height_list"
+            android:fadingEdge="none"
+            android:transcriptMode="alwaysScroll"/>
+
+        <LinearLayout
+            android:id="@+id/hot_list_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <com.projection.sharelifeexperience.indicator.ViewPagerIndicator
+                android:id="@+id/viewPagerIndicator"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tab_title_height"
+                android:orientation="horizontal"
+                app:item_count="3"
+                android:visibility="gone"
+                >
+            </com.projection.sharelifeexperience.indicator.ViewPagerIndicator>
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/frag_recom_tablayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/leshareThemeColor"
+                app:tabBackground="@color/leshareThemeColor"
+                app:tabIndicatorHeight="3dp"
+                app:tabSelectedTextColor="@color/tablayout_text_selected_color"
+                app:tabTextColor="@color/tablayout_text_unselected_color"
+                />
+            <android.support.v4.view.ViewPager
+                android:id="@+id/hot_list_viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+            </android.support.v4.view.ViewPager>
+        </LinearLayout>
+    </FrameLayout>
+
+    <include layout="@layout/floating_action_button"/>
+</RelativeLayout>

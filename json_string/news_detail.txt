@@ -1,0 +1,43 @@
+04-20 11:04:14.764 D/ShareLife(12507): ContentDetailActivity  reponse return, 
+
+{"BL3AAPBV00014JB6":
+
+{"body":"<!--IMG#0--><p>　　中新网4月20日电 据日媒报道，本月19日，日本大阪维新会共同党首片山虎之助在国会内出席该党会议，致辞时就熊本地震称“国会进入最后阶段后发生了地震，势必会给政局动向造成影响，是时机非常好的地震”。<\/p><p>　　此后他表示自己“用词不当，为此致歉”，收回了上述发言。日媒指出，灾区方面或将出现这可能伤害灾民感情的批评声。<\/p><p>　　据报道，片山在会议上列举了众院跨太平洋伙伴关系协定(TPP)特别委员会审议、24日投计票的众院两个小选区补选以及在夏季参院选举之际进行“众参同日选举”的可能这些大事。<\/p><p>　　此外还指出了对2017年4月是否按计划实施消费税再增税做决定的问题，认为此次地震与首相安倍晋三的政局判断“全部密切相关”。<\/p><p>　　片山在解释时称：“我是想说容易给政局判断和国会日程造成影响，与政局重要节点重合了的意思。”<\/p><p>　　该党干事长马场伸幸在此后的记者会上表示：“这是语言措辞有误，所以党内不进行任何处分。”党首松井一郎在京都市内向媒体表示：“灾区也许会有人因此心情受伤，很抱歉。希望(片山)谨慎用词。”<\/p><p>（原标题：日本一在野党党首称熊本地震“时机好”遭批）<\/p>",
+
+"users":[],
+"replyCount":16,
+"ydbaike":[],
+"source_url":"http:\/\/www.chinanews.com\/gj\/2016\/04-20\/7840913.shtml",
+"link":[],
+"votes":[],
+"img":[{"ref":"<!--IMG#0-->",
+"pixel":"436*500",
+"alt":"片山虎之助",
+"src":"http:\/\/img1.cache.netease.com\/catchpic\/B\/B3\/B395E0660A10D6E4CC44128446D013E6.jpg"}],
+"shareLink":"http:\/\/3g.163.com\/ntes\/special\/0034073A\/wechat_article.html?docid=BL3AAPBV00014JB6&spst=0&spss=newsapp&spsf=wx&spsw=1",
+"digest":"",
+"topiclist_news":[],
+"dkeys":"党首,熊本地震,时机",
+"ec":"张洋洋_NN2149",
+"topiclist":[{"hasCover":false,"subnum":"611.4万","alias":"24小时即时国际重大新闻资讯","tname":"网易国际","ename":"guoji","tid":"T1348648122539","cid":"C1378977941637"}],
+"docid":"BL3AAPBV00014JB6",
+"picnews":true,
+"title":"日在野党党首称地震\"时机好\"",
+"tid":"",
+"keyword_search":[{"word":"时机好"},{"word":"党首"},{"word":"在野党"}],
+"template":"normal",
+"threadVote":0,
+"threadAgainst":0,
+"boboList":[],
+"replyBoard":"news3_bbs",
+"source":"中国新闻网",
+"voicecomment":"off",
+"hasNext":false,
+
+"relative_sys":
+[{"id":"BL2QBV0S00014JB6","title":"安倍不去熊本灾区慰问遭骂 自辩\"怕添乱\"难服众","source":"环球时报","imgsrc":"http:\/\/img1.cache.netease.com\/3g\/2016\/4\/20\/20160420054220e1faa.jpg","type":"doc","ptime":"2016-04-20 04:00:00","href":""},
+{"id":"BKV61SF790011SF8","title":"“看上去很美”：熊本地震再次检验日本自卫队救灾能力","source":"澎湃网","imgsrc":"http:\/\/p1.music.126.net\/D9fqZjyS24ShAHCbAFS2FQ==\/18283778858541133.jpg","type":"doc","ptime":"2016-04-18 19:13:00","href":""},
+{"id":"BKUBOQGA9001OQGB","title":"日本地震死者达42人 灾区物资不足政府瘫痪停工","source":"中国新闻网","imgsrc":"http:\/\/p1.music.126.net\/a_Q8FAQupX2lpXVyFWo38g==\/17660355765522461.jpg","type":"doc","ptime":"2016-04-18 11:29:00","href":""}],
+
+"apps":[],
+"ptime":"2016-04-20 09:53:00"}}

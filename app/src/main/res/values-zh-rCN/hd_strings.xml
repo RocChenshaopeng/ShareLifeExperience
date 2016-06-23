@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <resources>
+    <string name="profile_author_icon">"头像"</string>
+    <string name="profile_author_signature">"签名"</string>
+    <string name="profile_author_base_info">"基本信息"</string>
+    <string name="profile_author_icon_mod_str">"修改头像"</string>
+    <string name="profile_author_icon_nickname_str">"昵称"</string>
+    <string name="profile_author_icon_gender_str">"性别"</string>
+    <string name="profile_author_icon_city_str">"城市"</string>
+    <string name="profile_author_icon_work_str">"职业"</string>
+    <string name="profile_author_icon_education_str">"教育"</string>
+    <string name="profile_account_logout_str">"退出登录"</string>
+    <string name="profile_author_icon_select_dialog_title">"选择方式"</string>
+    <string name="profile_author_gender_select_dialog_title">"选择性别"</string>
+    <string name="profile_author_education_select_dialog_title">"选择教育程度"</string>
+    <string name="profile_author_gender_male">"男"</string>
+    <string name="profile_author_gender_female">"女"</string>
+    <string name="profile_author_info_highschool">"高中"</string>
+    <string name="profile_author_info_Bachelor">"本科"</string>
+    <string name="profile_author_info_master">"研究生"</string>
+    <string name="profile_author_info_doctor">"博士"</string>
+    <string name="profile_author_info_secret">"保密"</string>
+    <string name="pro_lifelist_header_create">创建的</string>
+    <string name="pro_lifelist_header_attention">关注的</string>
+</resources>

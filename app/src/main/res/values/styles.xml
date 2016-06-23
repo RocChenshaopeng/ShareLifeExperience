@@ -1,0 +1,119 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- The style of activity animation -->
+    <style name="AnimationActivity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_open_in_anim</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_open_out_anim</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_close_in_anim</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_close_out_anim</item>
+    </style>
+
+    <!-- The style of transparent animation -->
+    <style name="AnimationActivityTranslucent">
+        <item name="android:windowEnterAnimation">@anim/window_enter_animation</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <!-- The style of access button -->
+    <style name="AccessButtonTheme">
+        <item name="android:layout_width">@dimen/access_btn_width</item>
+        <item name="android:layout_height">@dimen/access_btn_height</item>
+        <item name="android:background">@drawable/enter_selector_background</item>
+        <item name="android:textColor">@color/colorCoral</item>
+        <item name="android:textSize">@dimen/access_text_size</item>
+        <item name="android:layout_weight">@integer/access_btn_layout_weight</item>
+    </style>
+    <!-- The theme of MainActivity -->
+    <style name="MainActivityTheme" parent="AppTheme.NoActionBar">
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+    </style>
+
+    <!-- The theme of CirclePagerIndicator -->
+    <style name="CirclePagerIndicatorTheme" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+    </style>
+
+    <!-- The theme of SplashActivity -->
+    <style name="SplashActivityTheme" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowAnimationStyle">@style/AnimationActivityTranslucent</item>
+        <!-- Solution: short black screen when start application -->
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <!-- The style of bottom radio button -->
+    <style name="RadioButtonTheme">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">@integer/access_btn_layout_weight</item>
+        <item name="android:button">@null</item>
+        <item name="android:textColor">@color/bottom_radio_text_color</item>
+        <item name="android:textSize">@dimen/radio_btn_text_size</item>
+        <item name="android:background">@null</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingTop">@dimen/radio_btn_padding</item>
+    </style>
+    <!-- The style of tab button of home page -->
+    <style name="HomeTabButtonTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/action_bar_default_height</item>
+        <item name="android:layout_weight">@integer/home_tab_button_weight</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/home_tab_btn_text_size</item>
+        <item name="android:background">@drawable/tab_button_pressed</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="ProfilePageFontTheme">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="ProfileFunctionPageFontTheme">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Announce type style -->
+    <style name="AnnounceTypeButtonTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/announce_type_button_height</item>
+        <item name="android:layout_marginStart">@dimen/announce_note_btn_padding</item>
+        <item name="android:textSize">@dimen/announce_type_text_size</item>
+        <item name="android:background">@drawable/announce_type_button</item>
+        <item name="android:textColor">@color/announce_type_text_color</item>
+    </style>
+
+    <!-- The dialog theme of the application -->
+    <style name="ThemeLeshareDialog" parent="@android:style/Theme.DeviceDefault.Light.Dialog"/>
+
+    <!-- The style of input announce type button -->
+    <style name="InputAnnounceTypeButton" parent="HomeTabButtonTheme">
+        <item name="android:textColor">@color/leshareThemeColor</item>
+    </style>
+
+    <!-- Sign up edit text theme -->
+    <style name="SignUpEditTextTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/edit_text_height_sign_up</item>
+        <item name="android:paddingStart">@dimen/toast_text_padding</item>
+        <item name="android:background">@drawable/sign_up_edit_background</item>
+    </style>
+
+</resources>

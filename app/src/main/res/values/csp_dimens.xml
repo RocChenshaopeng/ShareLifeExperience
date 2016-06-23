@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Search content view margin top -->
+    <dimen name="search_detail_margin_top">8dp</dimen>
+    <!-- Search view title padding -->
+    <dimen name="search_title_padding">6dp</dimen>
+    <!-- Search record margin start -->
+    <dimen name="search_record_margin">20dp</dimen>
+    <!-- Search record divider margin top -->
+    <dimen name="search_record_divider_margin_top">4dp</dimen>
+    <!-- Search record text size -->
+    <dimen name="search_record_text_size">18sp</dimen>
+    <!-- Search view stroke width -->
+    <dimen name="search_view_stroke_width">1dp</dimen>
+    <!-- Search view padding start -->
+    <dimen name="search_view_padding_start">5dp</dimen>
+    <!-- List view padding start -->
+    <dimen name="list_view_padding_start">6dp</dimen>
+    <!-- Search cancel text margin -->
+    <dimen name="search_cancel_margin">10dp</dimen>
+    <!-- Search cancel text size -->
+    <dimen name="search_cancel_text_size">20sp</dimen>
+    <!-- Announce page title margin -->
+    <dimen name="announce_title_margin">6dp</dimen>
+    <!-- Announce note button padding -->
+    <dimen name="announce_note_btn_padding">6dp</dimen>
+    <!-- Announce text size -->
+    <dimen name="announce_text_size">20sp</dimen>
+    <!-- Announce margin end -->
+    <dimen name="announce_margin_end">6dp</dimen>
+    <!-- Announce type text size -->
+    <dimen name="announce_type_text_size">14sp</dimen>
+    <!-- Announce type button height -->
+    <dimen name="announce_type_button_height">40dp</dimen>
+    <!-- List item image height -->
+    <dimen name="list_item_image_height">150dp</dimen>
+    <!-- Margin constant value -->
+    <dimen name="zero_margin">0dp</dimen>
+    <!-- Welcome msg text margin to top -->
+    <dimen name="welcome_msg_margin_top">60dp</dimen>
+    <!-- Welcome msg text size -->
+    <dimen name="welcome_msg_text_size">40sp</dimen>
+    <!-- Sign in/up activity: layout margin start -->
+    <dimen name="sign_in_margin_start">20dp</dimen>
+    <!-- Sign in/up activity: edit text margin to layout -->
+    <dimen name="edit_text_margin">10dp</dimen>
+    <!-- Sign in/up activity: edit text content padding start -->
+    <dimen name="edit_text_padding_start">4dp</dimen>
+    <!-- Sign in/up activity: edit text height -->
+    <dimen name="edit_text_height_sign_up">48dp</dimen>
+</resources>

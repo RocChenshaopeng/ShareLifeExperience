@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/sign_in_margin_start"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/sign_up_account"
+                style="@style/SignUpEditTextTheme"
+                android:hint="@string/sign_up_hint_info_default"/>
+
+            <Button
+                android:id="@+id/get_verifier_code_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/skip_btn_margin_right"
+                android:layout_weight="1"
+                android:background="@drawable/sign_up_button_background"
+                android:text="@string/get_verifier_number_button_text"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/radio_btn_text_size"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/verifier_code_edit"
+            style="@style/SignUpEditTextTheme"
+            android:layout_marginTop="@dimen/profile_author_layout_padding_top"
+            android:hint="@string/verifier_number_hint_text"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/set_nick_name"
+            style="@style/SignUpEditTextTheme"
+            android:layout_marginTop="@dimen/profile_author_layout_padding_top"
+            android:hint="@string/nick_name"/>
+
+        <EditText
+            android:id="@+id/sign_up_password"
+            style="@style/SignUpEditTextTheme"
+            android:layout_marginTop="@dimen/profile_author_layout_padding_top"
+            android:hint="@string/user_password_edit_hint"/>
+
+        <EditText
+            android:id="@+id/sign_up_confirm_password"
+            style="@style/SignUpEditTextTheme"
+            android:layout_marginTop="@dimen/profile_author_layout_padding_top"
+            android:hint="@string/confirm_password"/>
+
+        <Button
+            android:id="@+id/next_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/skip_btn_height"
+            android:alpha="0.7"
+            android:background="@drawable/sign_up_button_background"
+            android:enabled="false"
+            android:gravity="center"
+            android:text="@string/sign_up"
+            android:textSize="@dimen/access_text_size"
+            android:textColor="@android:color/white"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/skip_btn_margin_right"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/hint_info_protocol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/protocol_hint_text"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/protocol_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:text="@string/use_protocol"
+                android:textColor="@color/leshareThemeColor"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

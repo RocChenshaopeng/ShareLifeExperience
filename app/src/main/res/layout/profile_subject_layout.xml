@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/profile_subject_padding_tlr"
+    android:paddingLeft="@dimen/profile_subject_padding_tlr"
+    android:paddingRight="@dimen/profile_subject_padding_tlr">
+    <TextView
+        android:id="@+id/profile_focus_subject_number_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/profile_subject_text_color"
+        android:textSize="15sp"
+        android:text="@string/profile_focus_subject"/>
+    <LinearLayout
+        android:id="@+id/profile_focus_subject_content_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/profile_focus_subject_number_id"
+        android:layout_marginBottom="@dimen/profile_subject_margen_bottem"
+        android:paddingTop="@dimen/profile_subject_padding_tlr"
+        android:paddingLeft="@dimen/profile_subject_padding_tlr"
+        android:paddingRight="@dimen/profile_subject_padding_tlr"
+        android:orientation="vertical"
+        >
+<!--        <ListView
+            android:id="@+id/profile_focus_subject_list_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:divider="@color/listview_divider_transpant"/>-->
+
+    </LinearLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@color/page_background_gray"
+    android:layout_marginBottom="@dimen/listview_item_margen_bottom"
+    >
+    <TextView
+        android:id="@+id/profile_add_subject_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/listview_item_margen_top"
+
+        android:text="@string/profile_add_more_subject"/>
+    </RelativeLayout>
+</RelativeLayout>

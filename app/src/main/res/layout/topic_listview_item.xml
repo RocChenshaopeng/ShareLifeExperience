@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:paddingStart="@dimen/listview_item_margen_left"
+    android:paddingRight="@dimen/listview_item_margen_right">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3">
+        <com.projection.sharelifeexperience.util.SquareImageView
+            android:id="@+id/profile_topic_image_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/lifelistimage"
+            android:scaleType="centerCrop"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/listview_item_margen_top"
+        android:layout_marginLeft="@dimen/listview_item_margen_left"
+        android:layout_marginBottom="@dimen/listview_item_margen_bottom"
+        android:layout_marginRight="@dimen/listview_item_margen_right"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/profile_topic_title_id"
+            android:text="profile topic title"
+            style="@style/ListView_Title_TextView"
+            />```
+        <TextView
+            android:id="@+id/profile_topic_summry_id"
+            android:text="profile topic summary profile topic summary profile topic summary"
+            android:maxLines="2"
+            style="@style/ListView_Summary_TextView"
+            android:layout_below="@+id/profile_topic_title_id"
+            android:layout_marginTop="@dimen/listview_item_margen_top"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/listview_item_subject_margen_top"
+            android:layout_below="@+id/profile_topic_summry_id">
+            <TextView
+                android:id="@+id/profile_topic_subject_id"
+                style="@style/ListView_TextView_Subject"
+                android:text="type"
+                android:layout_alignParentLeft="true"
+                />
+            <TextView
+                android:id="@+id/profile_topic_attention_id"
+                style="@style/ListView_Summary_TextView"
+                android:text="attention:55"
+                android:layout_alignParentRight="true"
+                />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</LinearLayout>

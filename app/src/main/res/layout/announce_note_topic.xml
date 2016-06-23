@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/announce_content_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/announce_title_margin"
+        android:orientation="vertical">
+
+        <com.projection.sharelifeexperience.widget.CustomEditText
+            android:id="@+id/announce_content_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="@string/announce_content_title"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/announce_title_margin"
+            android:background="@android:color/darker_gray"/>
+    </LinearLayout>
+
+    <com.projection.sharelifeexperience.widget.CustomEditText
+        android:id="@+id/announce_detail_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/announce_type_select_layout"
+        android:layout_below="@+id/announce_content_title_layout"
+        android:layout_margin="@dimen/announce_title_margin"
+        android:background="@null"
+        android:gravity="top"
+        android:hint="@string/announce_hint_text"/>
+
+    <LinearLayout
+        android:id="@+id/announce_type_select_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/announce_title_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/announce_title_margin"
+            android:text="@string/announce_type_hint"/>
+
+        <com.projection.sharelifeexperience.widget.MyHorizontalScrollView
+            android:id="@+id/custom_horizontalScrollView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/announce_title_margin"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal"/>
+        </com.projection.sharelifeexperience.widget.MyHorizontalScrollView>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<PreferenceScreen
+    android:key="clear_cache"
+    android:title="clear cache"
+    android:persistent="false">
+</PreferenceScreen>
+
+    <CheckBoxPreference
+        android:key="show_image"
+        android:title="show image"
+        android:persistent="true"/>
+
+    <PreferenceScreen
+        android:key="suggestion"
+        android:title="suggestion"
+        android:persistent="false">
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="about"
+        android:title="about"
+        android:persistent="false">
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="document"
+        android:title="document"
+        android:persistent="false">
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="logout_id"
+        android:title="@string/profile_account_logout_str"
+        android:persistent="false">
+    </PreferenceScreen>
+
+    <!--<include layout="@layout/profile_logout"/>-->
+
+</PreferenceScreen>

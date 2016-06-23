@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/profile_author_layout_id"
+        layout="@layout/profile_author_layout"/>
+
+    <LinearLayout
+        android:id="@+id/profile_attention_layout_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_author_layout_id"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="30dp"
+        >
+
+        <LinearLayout
+            android:id="@+id/my_attention"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/profile_attention_positive_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/author_default_textview_num"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_attenttion_positive"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/profile_author_layout_padding_top"
+            android:layout_marginRight="@dimen/profile_author_layout_padding_top"
+            android:background="@drawable/line"/>
+
+        <LinearLayout
+            android:id="@+id/attention_my"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/my_attention"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/profile_attention_passive_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/author_default_textview_num"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_attenttion_passive"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/profile_horizontal_line_id"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/profile_attention_layout_id"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="@dimen/profile_author_layout_padding_top"
+        android:background="@color/colorDarkGray"/>
+
+    <include layout="@layout/profile_main_function"/>
+</RelativeLayout>

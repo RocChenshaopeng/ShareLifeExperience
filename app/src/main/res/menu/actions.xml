@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_get_image"
+        android:icon="@drawable/icon"
+        android:showAsAction="always"
+        android:title="@string/add_image_announce_info"/>
+    <item
+        android:id="@+id/announce_text"
+        android:showAsAction="always"
+        android:title="@string/announce_button_text"/>
+</menu>

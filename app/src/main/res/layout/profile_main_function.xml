@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:paddingTop="@dimen/profile_author_layout_padding_top"
+    android:paddingBottom="@dimen/profile_author_layout_padding_top"
+    android:layout_below="@+id/profile_horizontal_line_id">
+    <!--android:background="@color/colorPrimary"-->
+
+    <LinearLayout
+        android:id="@+id/profile_function_first_line_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_author_name_id"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/profile_function_first_lifelist_id"
+            android:drawableTop="@drawable/ic_profile_lisfelist"
+            style="@style/ProfileFunctionPageFontTheme"
+            android:text="@string/life_list_name_str"
+            />
+        <TextView
+            android:id="@+id/profile_function_first_handprint_id"
+            android:text="@string/hand_writing_print_name_str"
+            android:drawableTop="@drawable/ic_profile_handprint"
+            style="@style/ProfileFunctionPageFontTheme"
+            />
+        <TextView
+            android:id="@+id/profile_function_first_footprint_id"
+            android:text="@string/foot_print_name_str"
+            android:drawableTop="@drawable/ic_profile_footprint"
+            style="@style/ProfileFunctionPageFontTheme"
+            />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/profile_horizontal_line2_id"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_below="@+id/profile_function_first_line_id"
+        android:layout_marginTop="@dimen/profile_author_layout_padding_top"
+        android:layout_marginBottom="@dimen/profile_author_layout_padding_top"
+        android:background="@color/colorDarkGray"/>
+
+    <LinearLayout
+        android:id="@+id/profile_function_second_line_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/profile_author_layout_padding_top"
+        android:layout_below="@id/profile_horizontal_line2_id"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        >
+        <TextView
+            android:id="@+id/profile_function_second_topic_id"
+            android:drawableTop="@drawable/ic_profile_topic"
+            style="@style/ProfileFunctionPageFontTheme"
+            android:text="@string/topic_name_str"/>
+        <TextView
+            android:id="@+id/profile_function_second_subject_id"
+            android:drawableTop="@drawable/ic_profile_subject"
+            style="@style/ProfileFunctionPageFontTheme"
+            android:text="@string/subject_name_str"/>
+        <TextView
+            android:id="@+id/profile_function_second_setting_id"
+            android:drawableTop="@drawable/ic_profile_setting"
+            style="@style/ProfileFunctionPageFontTheme"
+            android:text="@string/setting_name_str"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+04-20 10:46:31.666 D/ShareLife(10824): com.projection.sharelifeexperience.fragment.SpecialListFragment$4@1881fe09 reponse return,
+{"T1348647909107":
+[
+{
+"postid":"BL3AAPBV00014JB6",
+"hasCover":false,
+"hasHead":1,
+"replyCount":7,
+"ltitle":"日本一在野党党首称熊本地震\"时机好\"遭批",
+"hasImg":1,
+"digest":"称势必会给政局动向造成影响;事后因\"用词不当\"致歉。",
+"hasIcon":false,
+"docid":"BL3AAPBV00014JB6",
+"title":"日在野党党首称地震\"时机好\"",
+"order":1,
+"priority":96,
+"lmodify":"2016-04-20 10:07:42",
+"boardid":"news3_bbs",
+"ads":
+	[{"title":"图片故事：一个人的村庄","tag":"photoset","imgsrc":"http:\/\/img5.cache.netease.com\/3g\/2016\/4\/20\/20160420103513aa761.jpg","subtitle":"","url":"00AP0001|116342"},
+	{"title":"南京一幼儿园老师让男孩互殴发泄精力","tag":"photoset","imgsrc":"http:\/\/img5.cache.netease.com\/3g\/2016\/4\/20\/201604200951129c78d.jpg","subtitle":"","url":"00AP0001|116337"},
+	{"title":"长春道路现数百个坑 被戏称\"蜂窝路\"","tag":"photoset","imgsrc":"http:\/\/img2.cache.netease.com\/3g\/2016\/4\/20\/2016042009150360091.jpg","subtitle":"","url":"00AP0001|116330"},
+	{"title":"长春男子存入9.5万硬币 重800多公斤","tag":"photoset","imgsrc":"http:\/\/img5.cache.netease.com\/3g\/2016\/4\/20\/2016042009543531f1b.jpg","subtitle":"","url":"00AP0001|116331"},
+	{"title":"日本地震灾民暂居临时避难所 席地而睡","tag":"photoset","imgsrc":"http:\/\/img5.cache.netease.com\/3g\/2016\/4\/20\/201604200739344391a.jpg","subtitle":"","url":"00AO0001|116305"
+	}],
+"url_3w":"http:\/\/news.163.com\/16\/0420\/09\/BL3AAPBV00014JB6.html",
+"template":"manual",
+"votecount":2,"alias":"Top News",
+"cid":"C1348646712614",
+"url":"http:\/\/3g.163.com\/news\/16\/0420\/09\/BL3AAPBV00014JB6.html",
+"hasAD":1,"source":"中国新闻网","tname":"头条","ename":"androidnews",
+"imgsrc":"http:\/\/img1.cache.netease.com\/3g\/2016\/4\/20\/2016042010083259b82.jpg",
+"subtitle":"",
+"ptime":"2016-04-20 09:53:00"},
+{"url_3w":"http:\/\/news.163.com\/16\/0420\/08\/BL368HLA00011229.html","postid":"BL368HLA00011229","votecount":1970,"replyCount":2082,"ltitle":"川师杀人学生:想死不敢跳楼 杀人让法院判我死刑","digest":"求判死刑;曾对死者称自己不正常说不定哪天就把他杀了。","url":"http:\/\/3g.163.com\/news\/16\/0420\/08\/BL368HLA00011229.html","docid":"BL368HLA00011229","title":"川师杀人学生:想死不敢跳楼","source":"中青在线","priority":96,"lmodify":"2016-04-20 10:37:27","imgsrc":"http:\/\/img4.cache.netease.com\/3g\/2016\/4\/20\/20160420085000d71cc.jpg","subtitle":"","boardid":"news_shehui7_bbs","ptime":"2016-04-20 08:42:15"},
+{"url_3w":"http:\/\/sports.163.com\/16\/0420\/07\/BL32UNCB00051CAQ.html","postid":"BL32UNCB00051CAQ","votecount":1304,"replyCount":1467,"ltitle":"天妒英才!21岁女子滑雪世界冠军遭遇雪崩身亡","digest":"月初，埃斯黛尔刚刚第二次获得自由式滑雪单板冠军。","url":"http:\/\/3g.163.com\/sports\/16\/0420\/07\/BL32UNCB00051CAQ.html","docid":"BL32UNCB00051CAQ","title":"21岁女子滑雪冠军遇雪崩身亡","source":"网易体育","priority":96,"lmodify":"2016-04-20 07:49:07","imgsrc":"http:\/\/img6.cache.netease.com\/3g\/2016\/4\/20\/20160420074949330e7.png","subtitle":"","boardid":"sports_zh_bbs","ptime":"2016-04-20 07:44:27"},
+{"postid":"BL3274I100031H2L","url_3w":"http:\/\/ent.163.com\/16\/0420\/07\/BL3274I100031H2L.html","votecount":166,"replyCount":200,"ltitle":"朱孝天发福有原因？患病无法根治靠药物治疗","digest":"因病痛所以无法维持体型，身材被曲解又难以解释。","url":"http:\/\/3g.163.com\/ent\/16\/0420\/07\/BL3274I100031H2L.html","docid":"BL3274I100031H2L","title":"朱孝天发福因患病无法根治？","TAGS":"视频","source":"网易娱乐","priority":96,"lmodify":"2016-04-20 09:43:26","boardid":"ent2_bbs","imgsrc":"http:\/\/img2.cache.netease.com\/3g\/2016\/4\/20\/20160420073429921c9.jpg","subtitle":"","ptime":"2016-04-20 07:31:34","TAG":"视频"},
+{"postid":"BL1B3VUN051888GI","url_3w":"","votecount":939,"replyCount":1002,"ltitle":"中分

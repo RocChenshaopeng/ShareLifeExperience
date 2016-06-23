@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/sign_in_empty_account_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@android:color/holo_red_light"
+        android:textColor="@android:color/white"
+        android:visibility="invisible"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/welcome_msg_margin_top"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/welcome_msg"
+            android:layout_marginBottom="@dimen/sign_in_margin_start"
+            android:textColor="@color/leshareThemeColor"
+            android:textSize="@dimen/welcome_msg_text_size"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/sign_in_margin_start"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/sign_in_account"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="@dimen/toast_text_padding"
+                    android:hint="@string/user_account_edit_hint_default"/>
+
+                <EditText
+                    android:id="@+id/sign_in_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="@dimen/toast_text_padding"
+                    android:hint="@string/user_password_edit_hint"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/sign_in_leshare_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/search_cancel_margin"
+                android:layout_marginEnd="@dimen/sign_in_margin_start"
+                android:layout_marginStart="@dimen/sign_in_margin_start"
+                android:background="@drawable/announce_note_background"
+                android:text="@string/sign_in_button_text"
+                android:textSize="@dimen/access_text_size"
+                android:textColor="@android:color/white"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/sign_up_leshare"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:text="@string/sign_up_text"
+                    android:textColor="@color/leshareThemeColor"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="@dimen/search_cancel_margin"
+                    android:layout_marginEnd="@dimen/profile_author_layout_padding_top"
+                    android:layout_marginStart="@dimen/profile_author_layout_padding_top"
+                    android:background="@drawable/line"/>
+
+                <TextView
+                    android:id="@+id/forget_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/forget_password"
+                    android:textColor="@android:color/darker_gray"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/search_record_margin">
+
+        <LinearLayout
+            android:id="@+id/sign_in_by_wechat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="@dimen/announce_type_button_height"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_sign_in_wechat"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/search_view_padding_start"
+                android:text="@string/sign_in_wechat_text"
+                android:textColor="@android:color/darker_gray"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="@dimen/search_cancel_margin"
+            android:layout_centerInParent="true"
+            android:background="@drawable/line"/>
+
+        <LinearLayout
+            android:id="@+id/sign_in_by_sina_weibo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/announce_type_button_height"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_sign_in_sina_weibo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/search_view_padding_start"
+                android:text="@string/sign_in_wechat_text"
+                android:textColor="@android:color/darker_gray"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

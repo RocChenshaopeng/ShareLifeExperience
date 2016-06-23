@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Search record grid view column -->
+    <integer name="search_record_column">2</integer>
+    <!-- Empty announce type toast message position offset y coordinate -->
+    <integer name="coordinate_offset_toast_message">-180</integer>
+</resources>

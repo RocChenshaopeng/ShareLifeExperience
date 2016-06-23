@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button android:id="@+id/announce_type_btn"
+        style="@style/AnnounceTypeButtonTheme"
+        xmlns:android="http://schemas.android.com/apk/res/android"/>

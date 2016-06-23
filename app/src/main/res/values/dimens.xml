@@ -1,0 +1,71 @@
+<resources>
+    <!-- Skip button round conner value -->
+    <dimen name="conner_radius_skip">15dp</dimen>
+    <!-- Margins top: skip button to the screen top -->
+    <dimen name="skip_btn_margin_top">30dp</dimen>
+    <!-- Margins right: skp button to the screen right -->
+    <dimen name="skip_btn_margin_right">10dp</dimen>
+    <!-- Skip button width -->
+    <dimen name="skip_btn_width">40dp</dimen>
+    <!-- Skip button height -->
+    <dimen name="skip_btn_height">20dp</dimen>
+    <!-- Skip button text size -->
+    <dimen name="skip_btn_text_size">12sp</dimen>
+    <!-- Margins bottom: the access to the application -->
+    <dimen name="access_margin_bottom">70dp</dimen>
+    <!-- Margins bottom: the circle pager indicator to the screen bottom -->
+    <dimen name="circle_indicator_margin_bottom">40dp</dimen>
+    <!-- Margins left: the older account access to the screen left -->
+    <dimen name="access_margin_left">30dp</dimen>
+    <!-- Margins right: the newer account access to the screen right -->
+    <dimen name="access_margin_right">30dp</dimen>
+    <!-- Button text size: older/newer account access button text size-->
+    <dimen name="access_text_size">18sp</dimen>
+    <!-- Distance of two button: older account to newer account -->
+    <dimen name="distance_older_to_newer_account">15dp</dimen>
+    <!-- Padding of circle pager indicator -->
+    <dimen name="circle_page_indicator_padding">6dp</dimen>
+    <!-- access button width -->
+    <dimen name="access_btn_width">40dp</dimen>
+    <!-- access button height -->
+    <dimen name="access_btn_height">40dp</dimen>
+    <!-- access button round conner value -->
+    <dimen name="conner_radius_access">8dp</dimen>
+    <!-- toast conner value radius -->
+    <dimen name="conner_radius_toast">6dp</dimen>
+    <!-- Padding top of bottom radio button -->
+    <dimen name="radio_btn_padding">2dp</dimen>
+    <!-- Text size of bottom radio button -->
+    <dimen name="radio_btn_text_size">12sp</dimen>
+    <!-- Text size of home tab button -->
+    <dimen name="home_tab_btn_text_size">20sp</dimen>
+    <!-- The divider height of ListView -->
+    <dimen name="divider_height_list">1sp</dimen>
+    <!-- The floating action button margin right -->
+    <dimen name="floating_action_button_margin_right">16dp</dimen>
+    <!-- The floating action button margin bottom -->
+    <dimen name="floating_action_button_margin_bottom">16dp</dimen>
+    <!-- The elevation of floating action button -->
+    <dimen name="floating_action_button_translation_z">5dp</dimen>
+    <!-- The width of floating action button -->
+    <dimen name="floating_action_button_width">56dp</dimen>
+    <!-- The height of floating action button -->
+    <dimen name="floating_action_button_height">56dp</dimen>
+    <!-- The text size of toast -->
+    <dimen name="toast_text_size">16sp</dimen>
+    <!-- The padding value of toast to root view -->
+    <dimen name="toast_text_padding">8dp</dimen>
+    <!-- The height of tab title -->
+    <dimen name="tab_title_height">36dp</dimen>
+
+    <!--profile author layout minimum height -->
+    <dimen name="profile_author_layout_height">100dp</dimen>
+    <dimen name="profile_author_icon_background_size">60dp</dimen>
+    <dimen name="profile_author_layout_padding_top">10dp</dimen>
+    <dimen name="profile_author_icon_padding_left_right">10dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- action bar height -->
+    <dimen name="action_bar_default_height">56dp</dimen>
+</resources>

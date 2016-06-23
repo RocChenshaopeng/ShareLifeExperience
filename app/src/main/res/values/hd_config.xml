@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--所有的dimen/color/string 都放到自己的这个文件下，最后在统一整理-->
+    <string name="profile_author_icon">icon</string>
+    <string name="profile_author_signature">"signature"</string>
+    <string name="profile_author_base_info">"base info"</string>
+    <string name="profile_author_icon_mod_str">"modiy icon"</string>
+    <string name="profile_author_icon_nickname_str">"nickname"</string>
+    <string name="profile_author_icon_gender_str">"gender"</string>
+    <string name="profile_author_icon_city_str">"city"</string>
+    <string name="profile_author_icon_work_str">"career"</string>
+    <string name="profile_author_icon_education_str">"education"</string>
+    <string name="profile_account_logout_str">"logout"</string>
+
+    <string name="profile_attention_author_string">"+guanzhu"</string>
+
+    <string name="profile_author_icon_select_dialog_title">"select the method"</string>
+    <string name="profile_author_gender_select_dialog_title">"select the gender"</string>
+    <string name="profile_author_education_select_dialog_title">"select the education"</string>
+
+    <string name="profile_author_icon_select_camera">"camera"</string>
+    <string name="profile_author_icon_select_local">"local"</string>
+
+
+    <string name="profile_author_info_highschool">"highschool"</string>
+    <string name="profile_author_info_Bachelor">"Bachelor"</string>
+    <string name="profile_author_info_master">"master"</string>
+    <string name="profile_author_info_doctor">"PHD"</string>
+    <string name="profile_author_info_secret">"secret"</string>
+
+    <string name="pro_lifelist_header_create">Created</string>
+    <string name="pro_lifelist_header_attention">Focused</string>
+
+    <string name="timeline_listview_item_text">2015.11.19</string>
+    <string name="owner">owner</string>
+    <string name="foucs">focus</string>
+
+    <string name="listview_more_text">"More"</string>
+
+    <string name="no_topic_content">"Nothing to leave,Let's go"</string>
+
+    <string name="no_lifelist_content">"Nothing to collect,Let's go"</string>
+    <string name="create_new_content">"Create"</string>
+    <string name="profile_focus_subject">"Already foucs number 11"</string>
+    <string name="profile_add_more_subject">"Add more"</string>
+
+    <string name="profile_subject_health">"health"</string>
+    <string name="profile_subject_food">"food"</string>
+    <string name="profile_subject_sport">"sport"</string>
+    <string name="profile_subject_skill">"skill"</string>
+
+
+    <string name="actionbar_subject_title">"Subject"</string>
+    <string name="actionbar_topic_title">"Topic"</string>
+    <string name="actionbar_setting_title">"Setting"</string>
+    <string name="actionbar_lifelist_title">"Life List"</string>
+    <string name="actionbar_footprint_title">"Footprint"</string>
+    <string name="actionbar_handwriting_title">"Handwriting"</string>
+    <string name="actionbar_author_title">"Author Info"</string>
+
+    <string name="subject_lifelist_string">"LifeList about Health"</string>
+    <string name="subject_topic_string">"Topic about Health"</string>
+
+
+
+    <dimen name="profile_author_info_margen_left">15dp</dimen>
+    <dimen name="profile_author_info_textview_minheight">30dp</dimen>
+    <dimen name="profile_author_info_textview_margen_right">30dp</dimen>
+    <dimen name="profile_author_info_icon_mod_font_size">20sp</dimen>
+    <dimen name="profile_author_baseinfo_text_width">80dp</dimen>
+    <dimen name="profile_author_back_margen_start">8dp</dimen>
+
+    <dimen name="profile_attention_listview_minheight">90dp</dimen>
+    <dimen name="profile_attention_margen_left">30dp</dimen>
+    <dimen name="actionbar_height">56dp</dimen>
+
+
+    <dimen name="profile_listview_horizontal_margin">16dp</dimen>
+    <dimen name="profile_listview_vertical_margin">5dp</dimen>
+
+    <dimen name="line_left_margen">75dp</dimen>
+    <dimen name="listview_left_textview_width">60dp</dimen>
+    <dimen name="listview_item_margen_top">8dp</dimen>
+    <dimen name="listview_item_margen_bottom">8dp</dimen>
+    <dimen name="listview_item_margen_left">8dp</dimen>
+    <dimen name="listview_item_margen_right">8dp</dimen>
+    <dimen name="listview_item_subject_margen_top">4dp</dimen>
+
+    <dimen name="profile_subject_padding_tlr">15dp</dimen>
+    <dimen name="profile_subject_margen_bottem">50dp</dimen>
+    <dimen name="actionbar_title_text_size">20sp</dimen>
+    <dimen name="actionbar_content_insert_start">50dp</dimen>
+
+
+
+
+    <color name="page_background_gray">#DCDCDC</color>
+    <color name="profile_info_divide_view">#f0f0f0</color>
+    <color name="listview_divider_transpant">#00000000</color>
+    <color name="profile_subject_text_color">#888888</color>
+    <color name="actionbar_title_text_color">@android:color/white</color>
+    <color name="topic_title_background_gray_alpha">#99DCDCDC</color>
+    <color name="recycler_item_color">#fafafa</color>
+    
+    <string-array name="profile_author_icon_select_mthod">
+        <item>@string/profile_author_icon_select_camera</item>
+        <item>@string/profile_author_icon_select_local</item>
+    </string-array>
+
+    <string-array name="profile_author_gender_select_array">
+        <item>@string/profile_author_gender_male</item>
+        <item>@string/profile_author_gender_female</item>
+    </string-array>
+
+    <string-array name="profile_author_education_array">
+        <item>@string/profile_author_info_highschool</item>
+        <item>@string/profile_author_info_Bachelor</item>
+        <item>@string/profile_author_info_master</item>
+        <item>@string/profile_author_info_doctor</item>
+        <item>@string/profile_author_info_secret</item>
+    </string-array>
+
+    <string-array name="profile_listview_tab_title">
+        <item>@string/owner</item>
+        <item>@string/foucs</item>
+    </string-array>
+
+    <string-array name="subject_all">
+        <item>健康</item>
+        <item>养生</item>
+        <item>旅行</item>
+        <item>运动</item>
+        <item>房产</item>
+        <item>汽车</item>
+        <item>减肥</item>
+        <item>购物</item>
+        <item>生活技巧</item>
+        <item>生活常识</item>
+    </string-array>
+
+    <string-array name="foucs_subject_all">
+        <item>健康</item>
+        <item>养生</item>
+        <item>旅行</item>
+    </string-array>
+
+
+    <style name="ProAuthorInfoNormalText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/profile_author_info_textview_minheight</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginStart">@dimen/profile_author_info_margen_left</item>
+    </style>
+
+    <style name="ProAuthorBaseInfoLinearTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:minHeight">@dimen/profile_author_info_textview_minheight</item>
+        <item name="android:paddingLeft">@dimen/profile_author_info_margen_left</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.ActionBar">
+        <item name="android:displayOptions">showHome|showTitle|homeAsUp</item>
+        <item name="android:height">@dimen/actionbar_height</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:titleTextStyle">@style/DialtactsActionBarTitleText</item>
+        <item name="android:contentInsetStart">@dimen/abc_action_bar_content_inset_material</item>
+    </style>
+
+    <style name="DialtactsActionBarTitleText"
+        parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="TimeLine_Left_TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="ListView_Title_TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="ListView_Summary_TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="ListView_TextView_Subject">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/leshareThemeColor</item>
+    </style>
+
+    <style name="Subject_item_textview">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/subject_item_textview_background</item>
+        <item name="android:layout_marginLeft">@dimen/listview_item_margen_left</item>
+        <item name="android:layout_marginTop">@dimen/listview_item_margen_top</item>
+        <item name="android:textSize">@dimen/announce_text_size</item>
+    </style>
+
+    <style name="ProjectionActionBar" parent="android:Theme.Material.Light">
+        <item name="android:actionBarStyle">@style/customActionBar</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="colorPrimaryDark">#00ffffff</item>
+    </style>
+
+    <style name="ProAppCompatTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/customActionBar</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="colorPrimaryDark">#00ffffff</item>
+    </style>
+
+    <style name="customActionBar" parent="@style/ProjectionActionStyle">
+        <item name="android:contentInsetStart">@dimen/actionbar_content_insert_start</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_back</item>
+        <item name="android:windowActionBarOverlay">false</item>
+    </style>
+
+    <style name="ProjectionActionStyle" parent="android:Widget.Material.ActionBar">
+        <item name="android:displayOptions">showHome|showTitle|homeAsUp</item>
+        <item name="android:background">@color/leshareThemeColor</item>
+        <item name="android:titleTextStyle">@style/ProjectionActionBarTitle</item>
+        <item name="android:icon">@android:color/transparent</item>
+    </style>
+
+    <style name="ProjectionActionBarTitle" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/actionbar_title_text_color</item>
+        <item name="android:textSize">@dimen/actionbar_title_text_size</item>
+    </style>
+
+    <style name="author_name_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/leshareThemeColor</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Set the time of splash activity remains. -->
+    <integer name="splash_time_remain">3000</integer>
+    <!-- Set the time of send message delay -->
+    <integer name="send_message_delay">1500</integer>
+    <!-- layout weight: access button -->
+    <integer name="access_btn_layout_weight">1</integer>
+    <!-- layout weight: home tab button -->
+    <integer name="home_tab_button_weight">2</integer>
+    <!-- Tab title of list fragment -->
+    <integer name="tab_title_size">18</integer>
+    <!-- Toast message during time -->
+    <integer name="toast_during_time">1600</integer>
+    <!-- The retain time of error message under the condition of sign in Leshare -->
+    <integer name="error_message_time_out">3000</integer>
+</resources>

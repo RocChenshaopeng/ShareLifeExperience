@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+    </android.support.v4.view.ViewPager>
+
+    <com.viewpagerindicator.CirclePageIndicator
+        android:id="@+id/circlePageIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="@dimen/circle_indicator_margin_bottom"
+        android:padding="@dimen/circle_page_indicator_padding"
+        app:radius="3dp"/>
+
+    <Button
+        android:id="@+id/skip_btn"
+        android:layout_width="@dimen/skip_btn_width"
+        android:layout_height="@dimen/skip_btn_height"
+        android:layout_gravity="top|end"
+        android:layout_marginEnd="@dimen/skip_btn_margin_right"
+        android:layout_marginTop="@dimen/skip_btn_margin_top"
+        android:background="@drawable/btn_rounded_background"
+        android:text="@string/skip_btn_text"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/skip_btn_text_size"/>
+
+    <LinearLayout
+        android:id="@+id/access_entry_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/access_margin_bottom"
+        android:gravity="center_horizontal|bottom"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/old_account_access"
+            style="@style/AccessButtonTheme"
+            android:layout_marginStart="@dimen/access_margin_left"
+            android:text="@string/older_access_btn_text"/>
+
+        <Button
+            android:id="@+id/new_account_access"
+            style="@style/AccessButtonTheme"
+            android:layout_marginStart="@dimen/distance_older_to_newer_account"
+            android:layout_marginEnd="@dimen/access_margin_right"
+            android:text="@string/newer_access_btn_text"/>
+
+    </LinearLayout>
+</merge>

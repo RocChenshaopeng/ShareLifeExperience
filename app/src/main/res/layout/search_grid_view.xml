@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="@dimen/search_record_margin"
+    android:layout_marginStart="@dimen/search_record_margin"
+    android:layout_marginTop="@dimen/search_record_divider_margin_top"
+    android:numColumns="@integer/search_record_column"
+    android:visibility="gone"/>

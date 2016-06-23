@@ -1,0 +1,55 @@
+<resources>
+    <!-- The name of the app -->
+    <string name="app_name">LeShare</string>
+    <!-- The description of the app -->
+    <string name="app_description">An app about support sharing your life</string>
+    <string name="action_settings">Settings</string>
+    <!-- The text of skip button: Skip -->
+    <string name="skip_btn_text">Skip</string>
+    <!-- The toast message about quit the application when press button twice -->
+    <string name="toast_msg_quit_application">Quit application press again</string>
+    <!-- The text of radio button: Home -->
+    <string name="home_radio">Home</string>
+    <!-- The text of radio button: Search -->
+    <string name="search_radio">Search</string>
+    <!-- The text of radio button: Discovery -->
+    <string name="discovery_radio">Discovery</string>
+    <!-- The text of radio: My -->
+    <string name="my_radio">My</string>
+    <!-- The text of older access button: Older account-->
+    <string name="older_access_btn_text">Older account</string>
+    <!-- The text of newer access button: Newer account -->
+    <string name="newer_access_btn_text">Newer account</string>
+    <!-- The text of concern message button: Concern -->
+    <string name="concern_msg_btn_text">Concern</string>
+    <!-- The text of recommendation message button: Hoist -->
+    <string name="recommendation_btn_text">Hoist</string>
+    <!-- The description of floating action button -->
+    <string name="input_new_information_button">Issue new information</string>
+    <!-- The description of first navigation image -->
+    <string name="first_navigation_image_description">First navigation image</string>
+    <!-- The description of search icon on tab home -->
+    <string name="search_icon_description">Search information</string>
+
+    <string name="profile_author_name_default">Please log in</string>
+    <string name="profile_author_signature_default">"Please input your signature"</string>
+    <string name="profile_author_gender_male">male</string>
+    <string name="profile_author_gender_female">female</string>
+    <string name="profile_author_location_default">"nanjing"</string>
+    <string name="profile_attenttion_positive">"Focus"</string>
+    <string name="profile_attenttion_passive">"Fans"</string>
+    <string name="author_default_textview_num">0</string>
+
+    <string name="life_list_name_str">"lifelist"</string>
+    <string name="hand_writing_print_name_str">"handwriting"</string>
+    <string name="foot_print_name_str">"footprint"</string>
+    <string name="topic_name_str">"topic"</string>
+    <string name="subject_name_str">"subject"</string>
+    <string name="setting_name_str">"setting"</string>
+    <string name="title_activity_profile_attention">ProfileAttentionActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_content_detail">ContentDetailActivity</string>
+    <string name="title_activity_topic_detail">TopicDetailActivity</string>
+
+</resources>

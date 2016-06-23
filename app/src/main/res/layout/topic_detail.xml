@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<android.support.design.widget.CoordinatorLayout
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">-->
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        >
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/topic_detail_image_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/topic"
+            android:scaleType="centerCrop"/>
+        <TextView
+            android:id="@+id/topic_detail_title_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/topic_title_background_gray_alpha"
+            android:layout_alignBottom="@+id/topic_detail_image_id"
+            android:paddingStart="@dimen/listview_item_margen_left"
+            android:paddingEnd="@dimen/listview_item_margen_right"
+            android:text="djaskfdjuigohreghrueigvufdnvifdnsuiulgvndsf"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/listview_item_margen_top"
+        android:layout_marginLeft="@dimen/listview_item_margen_left"
+        android:layout_marginRight="@dimen/listview_item_margen_right"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/topic_detail_author_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/myicon"
+            app:civ_border_width="1dp"
+            app:civ_border_color="@color/leshareThemeColor"
+            />
+        <TextView
+            android:id="@+id/topic_detail_author_name"
+            android:text="@string/hello_world"
+            style="@style/author_name_style"
+            android:layout_margin="4dp"
+            android:layout_toRightOf="@+id/topic_detail_author_icon"
+            />
+
+        <TextView
+            android:id="@+id/topic_detail_attention_num"
+            android:layout_centerInParent="true"
+            style="@style/ListView_TextView_Subject"
+            android:drawableLeft="@drawable/ic_article_comment"
+            android:text="22"
+            />
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/topic_detail_summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="15sp"
+        android:maxLines="3"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/topic_detail_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:layout_marginTop="8dp"
+        android:clipChildren="false"/>
+
+        </LinearLayout>
+
+<!--
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
+-->

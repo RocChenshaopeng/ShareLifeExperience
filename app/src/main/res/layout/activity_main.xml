@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/main_content_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@integer/access_btn_layout_weight"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/colorDarkGray"/>
+
+    <RadioGroup
+        android:id="@+id/bottom_navigation_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/home_radio_button"
+            style="@style/RadioButtonTheme"
+            android:checked="true"
+            android:drawableTop="@drawable/home_radio_button_img"
+            android:text="@string/home_radio"/>
+
+        <RadioButton
+            android:id="@+id/search_radio_button"
+            style="@style/RadioButtonTheme"
+            android:drawableTop="@drawable/search_radio_button_img"
+            android:text="@string/search_radio"/>
+
+        <RadioButton
+            android:id="@+id/discovery_radio_button"
+            style="@style/RadioButtonTheme"
+            android:drawableTop="@drawable/discovery_radio_button_img"
+            android:text="@string/discovery_radio"/>
+
+        <RadioButton
+            android:id="@+id/my_radio_button"
+            style="@style/RadioButtonTheme"
+            android:drawableTop="@drawable/my_radio_button_img"
+            android:text="@string/my_radio"/>
+    </RadioGroup>
+</LinearLayout>

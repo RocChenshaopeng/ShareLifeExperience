@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.projection.sharelifeexperience.widget.FirstNoteHintView
+        android:id="@+id/first_note_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.projection.sharelifeexperience.widget.AnnounceView
+        android:id="@+id/announce_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</merge>

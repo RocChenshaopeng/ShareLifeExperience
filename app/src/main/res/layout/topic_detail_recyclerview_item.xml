@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/topic_detail_cardview_id"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:clickable="true"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="3dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/topic_detail_recycler_authorimg"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_tab_profile_normal"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#ffffff"/>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/topic_detail_recycler_authorname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="author_name"
+                android:textColor="@android:color/holo_blue_dark"
+                android:layout_marginTop="8dp"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/topic_detail_recycler_summary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="content content content"
+                android:layout_marginTop="8dp"
+                android:textColor="@android:color/black"
+                android:maxLines="4"/>
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/topic_detail_recycler_image"
+                android:layout_marginTop="8dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_margin="5dp"
+                >
+                <TextView
+                    android:id="@+id/topic_detail_recyclerview_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textSize="15sp"
+                    android:textColor="#5B5B5B"
+                    android:text="2016-04-17"/>
+                <ImageView
+                    android:layout_toLeftOf="@+id/topic_detail_love_number"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/ic_article_love_pressed"/>
+                <TextView
+                    android:id="@+id/topic_detail_love_number"
+                    android:layout_toLeftOf="@+id/topic_detail_comment_icon"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="99"
+                    android:textColor="#5B5B5B"
+                    android:textSize="15sp"/>
+                <ImageView
+                    android:id="@+id/topic_detail_comment_icon"
+                    android:layout_toLeftOf="@+id/topic_detail_comment_number"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/ic_article_love_pressed"/>
+                <TextView
+                    android:id="@+id/topic_detail_comment_number"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="88"
+                    android:textColor="#5B5B5B"
+                    android:layout_alignParentRight="true"
+                    android:textSize="15sp"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

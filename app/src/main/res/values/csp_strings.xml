@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hot_list_tab_title">
+        <item>Special</item>
+        <item>Topic</item>
+        <item>Crunchier</item>
+    </string-array>
+    <string-array name="announce_button_text_default">
+        <item>Through point</item>
+        <item>Experience in the workplace</item>
+        <item>Industry Insider</item>
+    </string-array>
+    <!-- Search title text -->
+    <string name="search_view_title">LeShare search</string>
+    <!-- Search hint info -->
+    <string name="search_view_hint">Search whole network</string>
+    <!-- Search record -->
+    <string name="search_view_record">Search record</string>
+    <!-- Clear search record -->
+    <string name="search_record_clear">Clear record</string>
+    <!-- Hot search item -->
+    <string name="search_hot_title">Hot search</string>
+    <!-- Hot user -->
+    <string name="search_hot_user">Hot user</string>
+    <!-- Description of search view icon -->
+    <string name="search_all_description">Search all</string>
+    <!-- Search view hint text -->
+    <string name="search_view_hint_text">Please input search text</string>
+    <!-- Announce info title -->
+    <string name="announce_info_title">Note</string>
+    <!-- Announce button text -->
+    <string name="announce_button_text">Announce</string>
+    <string name="announce_first_note_text">Announce first life note</string>
+    <!-- Announce edit hint text -->
+    <string name="announce_hint_text">Say something…</string>
+    <!-- Announce content type hint text -->
+    <string name="announce_type_hint">You can choose type of life below</string>
+    <!-- Announce view note text -->
+    <string name="announce_note_text">New note</string>
+    <!-- Announce view topic text -->
+    <string name="announce_topic_text">New topic</string>
+    <!-- Announce title -->
+    <string name="announce_content_title">title</string>
+    <!-- Announce content like icon description -->
+    <string name="announce_content_like_description">Good</string>
+    <!-- Announce add new type -->
+    <string name="announce_new_type">+ new type</string>
+    <!-- Comment announce content -->
+    <string name="announce_content_comment_description">Comment</string>
+    <!-- Announce type name string -->
+    <string name="input_new_announce_type">Input announce type</string>
+    <!-- Hint text of input new announce type -->
+    <string name="hint_text_announce_edit_new">Type name should be within 6 characters</string>
+    <!-- Toast message -->
+    <string name="toast_announce_type_empty_hint">Announce type should not be empty</string>
+    <string name="toast_announce_type_length_long">Announce type length too long</string>
+    <!-- Sign in or up view msg string -->
+    <string name="welcome_msg">Welcome to leshare</string>
+    <!-- Sign in/up activity: hint info of user account/password edit -->
+    <string name="user_account_edit_hint">Phone/Email</string>
+    <string name="user_password_edit_hint">Password</string>
+    <!-- Sign in/up activity: sign in button text -->
+    <string name="sign_in_button_text">Sign in</string>
+    <!-- Sign in/up activity: sign up text -->
+    <string name="sign_up_text">Sign up leshare</string>
+    <!-- Sign in/up activity: forget password -->
+    <string name="forget_password">Forget password</string>
+    <!-- Sign in/up activity: sign in by wechart -->
+    <string name="sign_in_wechat_text">Wechat signIn</string>
+    <!-- Sign in/up activity: sign in by sina weibo -->
+    <string name="sign_in_weibo_text">Weibo SignIn</string>
+    <!-- Sign in/up activity: sign in leshare -->
+    <string name="action_bar_sign_in_title">Sign in leshare</string>
+    <string name="action_bar_sign_up_title">Sign up leshare account</string>
+    <!-- Sign in/up activity: msg of empty account and password -->
+    <string name="sign_in_empty_account_msg">Input email or phone number please</string>
+    <string name="sign_in_empty_password_msg">Input password please</string>
+    <!-- Sign in/up activity: text of get verifier code button -->
+    <string name="get_verifier_number_button_text">Get verifier number</string>
+    <string name="verifier_number_hint_text">Verifier number</string>
+    <string name="next_operation_button_text">Next</string>
+    <string name="find_password_back">Find password back</string>
+    <string name="sign_up_hint_info">Phone/Email</string>
+    <string name="protocol_hint_text">Click next delegate you have been read and agree</string>
+    <string name="use_protocol">User agreement</string>
+    <string name="nick_name">Nickname</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="user_account_edit_hint_default">Email</string>
+    <string name="sign_up_hint_info_default">"Email address"</string>
+    <string name="add_image_announce_info">"add image"</string>
+    <string name="search_hint">Search information</string>
+    <string name="menu_search">Search</string>
+</resources>

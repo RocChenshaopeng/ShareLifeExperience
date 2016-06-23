@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/page_background_gray">
+    <TextView
+        android:id="@+id/pro_author_icon_text"
+        style="@style/ProAuthorInfoNormalText"
+        android:text="@string/profile_author_icon"/>
+
+    <RelativeLayout
+        android:id="@+id/profile_author_info_icon_mod_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/profile_author_info_margen_left"
+        android:background="@android:color/white">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_author_info_icon_id"
+            android:layout_width="@dimen/profile_author_icon_background_size"
+            android:layout_height="@dimen/profile_author_icon_background_size"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_tab_profile_normal"
+            app:civ_border_width="1dp"
+            app:civ_border_color="@color/leshareThemeColor"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/profile_author_info_margen_left"
+            android:textSize="@dimen/profile_author_info_icon_mod_font_size"
+            android:text="@string/profile_author_icon_mod_str"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/pro_author_signature_text"
+        style="@style/ProAuthorInfoNormalText"
+        android:text="@string/profile_author_signature"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="@android:color/white">
+        <EditText
+            android:id="@+id/prof_author_signature_mod_id"
+            android:layout_marginStart="@dimen/profile_author_info_margen_left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/profile_author_signature_default"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/pro_author_baseinfo_text"
+        style="@style/ProAuthorInfoNormalText"
+        android:text="@string/profile_author_base_info"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:minHeight="@dimen/profile_author_info_textview_minheight"
+        android:paddingLeft="@dimen/profile_author_info_margen_left"
+        android:gravity="center_vertical"
+        android:background="@android:color/white">
+        <TextView
+            android:layout_width="@dimen/profile_author_baseinfo_text_width"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_author_icon_nickname_str"/>
+        <TextView
+            android:id="@+id/profile_author_info_nickname_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/profile_info_divide_view"/>
+
+    <LinearLayout
+        android:id="@+id/profile_author_info_gender_layout_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/profile_author_info_textview_minheight"
+        android:paddingLeft="@dimen/profile_author_info_margen_left"
+        android:orientation="horizontal"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:background="@android:color/white">
+        <TextView
+            android:layout_width="@dimen/profile_author_baseinfo_text_width"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_author_icon_gender_str"/>
+        <TextView
+            android:id="@+id/profile_author_gender_male_id"
+            android:layout_width="@dimen/profile_author_baseinfo_text_width"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_author_gender_male"
+            />
+    </LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/profile_info_divide_view"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:minHeight="@dimen/profile_author_info_textview_minheight"
+        android:paddingLeft="@dimen/profile_author_info_margen_left"
+        android:gravity="center_vertical"
+        android:background="@android:color/white">
+        <TextView
+            android:layout_width="@dimen/profile_author_baseinfo_text_width"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_author_icon_city_str"/>
+        <TextView
+            android:id="@+id/profile_author_info_city_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_author_location_default"
+            />
+    </LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/profile_info_divide_view"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:minHeight="@dimen/profile_author_info_textview_minheight"
+        android:paddingLeft="@dimen/profile_author_info_margen_left"
+        android:gravity="center_vertical"
+        android:background="@android:color/white">
+        <TextView
+            android:layout_width="@dimen/profile_author_baseinfo_text_width"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_author_icon_work_str"/>
+        <TextView
+            android:id="@+id/profile_author_info_work_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            />
+    </LinearLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/profile_info_divide_view"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:minHeight="@dimen/profile_author_info_textview_minheight"
+        android:paddingLeft="@dimen/profile_author_info_margen_left"
+        android:gravity="center_vertical"
+        android:background="@android:color/white">
+        <TextView
+            android:layout_width="@dimen/profile_author_baseinfo_text_width"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_author_icon_education_str"/>
+        <TextView
+            android:id="@+id/profile_author_info_education_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            />
+    </LinearLayout>
+
+<include
+    android:layout_marginTop="@dimen/profile_author_info_textview_margen_right"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    layout="@layout/profile_logout"/>
+
+</LinearLayout>

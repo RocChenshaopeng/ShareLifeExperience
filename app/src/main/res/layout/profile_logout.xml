@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:gravity="center"
+    >
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/profile_author_info_margen_left"
+        android:layout_marginEnd="@dimen/profile_author_info_margen_left"
+        android:id="@+id/profile_account_logout_id"
+        android:text="@string/profile_account_logout_str"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/profile_author_info_icon_mod_font_size"
+        android:background="@drawable/profile_logout_button_bg"
+        />
+</LinearLayout>

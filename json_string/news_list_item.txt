@@ -1,0 +1,73 @@
+com.projection.sharelifeexperience.activity.TopicDetailActivity@1043a29e  topic detail{"url_3w":"http:\/\/money.163.com\/16\/0421\/13\/BL681UPR00253B0H.html",
+"postid":"BL681UPR00253B0H",
+"votecount":2517,
+"replyCount":2753,
+"ltitle":"骞跨數鎴愮鍥涘ぇ杩愯惀鍟嗭紵宸ヤ俊閮ㄥ洖搴旓細3鏈堟敹鍒扮敵璇?,
+"digest":"骞跨數宸叉彁浜ょ數淇′笟鍔＄粡钀ヨ鍙紝鎴栨垚绗洓澶х數淇¤繍钀ュ晢銆?,
+"url":"http:\/\/3g.163.com\/money\/16\/0421\/13\/BL681UPR00253B0H.html",
+"docid":"BL681UPR00253B0H","title":"宸ヤ俊閮ㄥ洖搴斿箍鐢电敵璇?姝ｈ蛋绋嬪簭",
+"source":"绗竴璐㈢粡鏃ユ姤",
+"priority":103,
+"lmodify":"2016-04-21 14:05:07",
+"imgsrc":"http:\/\/img3.cache.netease.com\/3g\/2016\/3\/19\/2016031917040660d07.jpg",
+"subtitle":"",
+"boardid":"money_bbs",
+"ptime":"2016-04-21 13:07:00"}
+
+
+com.projection.sharelifeexperience.activity.TopicDetailActivity@1043a29e  topic detail{"skipID":"77098",
+"digest":"鐪嬬湅杩欎綅95鍚庣憸浼藉瀛愰兘鏈夊摢浜涘仴韬妧鑳斤紵",
+"skipType":"live",
+"docid":"9IG74V5H00963VRO_BL5TJK9OdanheupdateDoc",
+"editor":[],
+"title":"鐪?5鍚庣憸浼藉瀛愬浣曞埛鐖嗙ぞ浜ゅ湀",
+"TAGS":"鐩存挱棰勫憡",
+"imgType":1,
+"priority":103,
+"live_info":{"mutilVideo":false,"pano":false,"remindTag":1,"end_time":"2016-04-21 18:00:00","user_count":10334,"roomId":77098,"start_time":"2016-04-21 16:00:00","type":0,"video":false},
+"lmodify":"2016-04-21 10:08:44",
+"imgsrc":"http:\/\/img6.cache.netease.com\/3g\/2016\/4\/21\/20160421101731cea90.png",
+"ptime":"2016-04-21 10:08:44",
+"TAG":"鐩存挱棰勫憡"}
+
+04-21 15:59:29.149 W/System.err(10374): org.json.JSONException: No value for postid
+
+
+
+com.projection.sharelifeexperience.activity.TopicDetailActivity@1043a29e  topic detail{"postid":"PHOTI5BB000300AJ",
+"votecount":9705,"replyCount":10412,
+"skipID":"00AJ0003|595307","digest":"",
+"skipType":"photoset",
+"docid":"9IG74V5H00963VRO_BL5TDAIJhumengyaoupdateDoc",
+"title":"绐﹂潠绔ョ鏂扮汗韬?鍢磋鐨勭棧澶姠闀?,
+"source":"缃戞槗濞变箰",
+"imgextra":[{"imgsrc":"http:\/\/img5.cache.netease.com\/3g\/2016\/4\/21\/20160421100612eb60c.jpg"},{"imgsrc":"http:\/\/img3.cache.netease.com\/3g\/2016\/4\/21\/20160421100614da5ba.jpg"}],
+"priority":103,
+"lmodify":"2016-04-21 10:05:18",
+"boardid":"ent2_bbs",
+"imgsrc":"http:\/\/img3.cache.netease.com\/3g\/2016\/4\/21\/20160421154723d4c3b.jpg",
+"photosetID":"00AJ0003|595307",
+"ptime":"2016-04-21 10:05:18"}
+
+04-21 15:59:29.150 W/System.err(10374): org.json.JSONException: No value for ltitle
+
+
+com.projection.sharelifeexperience.activity.TopicDetailActivity@1043a29e  topic detail{"url_3w":"http:\/\/help.3g.163.com\/16\/0421\/14\/BL6E2EQE00963VRO.html",
+"postid":"BL6E2EQE00963VRO",
+"votecount":4233,
+"replyCount":4741,
+"ltitle":"瀛︾敓鎷掍氦鍗蜂笌鑰佸笀浜掓 娑変簨瀛︽牎鏍￠暱宸茶鍋滆亴",
+"digest":"璋冩煡缁勫娑変簨瀛︾敓鏁欏笀杩涜璇㈤棶锛屽鐞嗙粨鏋滃皢浜庤繎鏈熷叕甯冦€?,
+"url":"http:\/\/3g.163.com\/ntes\/16\/0421\/14\/BL6E2EQE00963VRO.html",
+"docid":"BL6E2EQE00963VRO","title":"瀹夊窘甯堢敓浜掓娑変簨鏍￠暱琚仠鑱?,
+"source":"浜烘皯鏃ユ姤",
+"priority":102,
+"lmodify":"2016-04-21 15:03:40",
+"imgsrc":"http:\/\/img4.cache.netease.com\/3g\/2016\/4\/21\/2016042114574399552.jpg",
+"subtitle":"",
+"boardid":"3g_bbs",
+"ptime":"2016-04-21 14:56:27"}
+
+04-21 15:59:29.153 W/System.err(10374): org.json.JSONException: No value for template
+
+
